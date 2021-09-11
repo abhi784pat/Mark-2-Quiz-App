@@ -57,17 +57,13 @@ function play(question, answer){
 }
 
 (function game(){
-    console.log("Let's know your anime knowledge?----")
+    console.log("Let's know your Aot knowledge?----")
     questions.forEach(question =>{
         play(question.question, question.answer)
     })
 })()
 console.log(chalk.green("Your Final Score:",score))
-
-
-
-   console.log("Check out the high scores, if you should be there ping me and I'll update it");
-
+console.log("Check out the high scores, if you should be there ping me and I'll update it")
   highScores.map(score => console.log(score.name, " : ", score.score))
 
 
